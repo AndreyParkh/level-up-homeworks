@@ -41,18 +41,29 @@ body {
   margin: 0;
   padding:0;
 }
-.right-url-5 {
-  position: absolute;
-  right: 20px;
+
+body header footer {
+  box-sizing: border-box;
 }
 
-.nav-head {
+header {
+  display: inline-block;
   padding: 20px
 }
 
-.footer-a {
-  padding: 20px;
-  text-align: center;
+.right-url-5 {
+  position: absolute;
+  right: 80px;
+}
+
+.right-s-6 {
+  position: absolute;
+  right: 72px;
+}
+
+.right-url-7 {
+  position: absolute;
+  right: 20px;
 }
 
 .table {
@@ -69,7 +80,7 @@ table {
   width: 100%;
 }
 
-.content {
+.content, .post {
   padding: 0 15px;
 }
 
@@ -93,11 +104,22 @@ h2 {
   box-sizing: border-box;
 }
 
+input {
+padding: 8px 8px;
+}
+
 button {
+  margin-left: 30px;
+  padding: 10px 10px;
   text-transform: uppercase;
-  border: 1px solid silver;
+  border: 1px solid silver ;
 }
 
  button:hover {
   border: 2px solid red;
 } 
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
