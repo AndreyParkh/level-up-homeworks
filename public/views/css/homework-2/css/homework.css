@@ -73,7 +73,6 @@ header {
 table tr td {
   border: 1px solid silver;
   padding: 20px 0px;
-  
 }
 
 table {
@@ -91,6 +90,7 @@ img {
 h1 {
   line-height: 3;
 }
+
 .h h1 {
   font-size: 20px;
 }
