@@ -37,33 +37,18 @@ footer {
 }
 
 /* Your styles go below */
-body {
-  margin: 0;
-  padding:0;
-}
 
-body header footer {
+body, header, footer, table, div {
   box-sizing: border-box;
 }
 
-header {
-  display: inline-block;
+header, footer {
   padding: 20px
 }
 
-.right-url-5 {
-  position: absolute;
-  right: 80px;
-}
-
-.right-s-6 {
-  position: absolute;
-  right: 72px;
-}
-
-.right-url-7 {
-  position: absolute;
-  right: 20px;
+.nav-right {
+  float: right;
+  margin-top: -16px;
 }
 
 .table {
@@ -83,10 +68,6 @@ table {
   padding: 0 15px;
 }
 
-img {
-  width: 80%;
-}
-
 h1 {
   line-height: 3;
 }
@@ -101,25 +82,25 @@ h2 {
 
 .p {
   padding-bottom: 20px;
-  box-sizing: border-box;
 }
 
 input {
-padding: 8px 8px;
+  height: 25px;
 }
 
 button {
   margin-left: 30px;
-  padding: 10px 10px;
+  height: 30px;
+  padding: 0px 10px;
   text-transform: uppercase;
+  font-weight: bold;
   border: 1px solid silver ;
 }
 
  button:hover {
-  border: 2px solid red;
+  border: 1px solid red;
 } 
 
 footer {
-  padding: 20px;
   text-align: center;
 }
