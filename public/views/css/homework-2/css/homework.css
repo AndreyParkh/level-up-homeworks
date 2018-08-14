@@ -38,7 +38,7 @@ footer {
 
 /* Your styles go below */
 
-body, header, footer, table, div {
+* {
   box-sizing: border-box;
 }
 
@@ -46,38 +46,36 @@ header, footer {
   padding: 20px
 }
 
-.nav-right {
-  float: right;
-  margin-top: -16px;
-}
-
-.table {
-  margin: auto;
-}
-
-table tr td {
-  border: 1px solid silver;
-  padding: 20px 0px;
+.right {
+  position: absolute;
+  right: 0;
+  margin-right: 16px
 }
 
 table {
   width: 100%;
 }
 
-.content, .post {
+
+table tr td {
+  border: 1px solid silver;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.content {
   padding: 0 15px;
 }
 
 h1 {
   line-height: 3;
-}
-
-.h h1 {
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 h2 {
   line-height: 3;
+  font-weight: 600;
 }
 
 .p {
@@ -85,7 +83,9 @@ h2 {
 }
 
 input {
-  height: 25px;
+  height: 30px;
+  padding: 0px 10px;
+  border: 1px solid silver ;
 }
 
 button {
@@ -97,8 +97,8 @@ button {
   border: 1px solid silver ;
 }
 
- button:hover {
-  border: 1px solid red;
+button:hover {
+  border-color: red;
 } 
 
 footer {
