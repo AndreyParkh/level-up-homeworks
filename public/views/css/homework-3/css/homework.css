@@ -1,0 +1,154 @@
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  height: 100%;
+  color: #444;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+/* unknown props */
+/* пример фонового цвета - background-color: #3F51B5; */
+/* тень блока - box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2); */
+/* закругленные углы у кнопок - border-radius: 3px; */
+
+/* Your styles go below */
+
+* {
+  box-sizing: border-box;
+}
+
+
+header, footer {
+  padding: 20px
+}
+
+header {
+  background-color: #3F51B5;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+  margin-bottom: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+header a {
+  font-weight: 600;
+}
+
+a {
+  margin-left: 20px;
+}
+
+.url_gallery {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 2;
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 2;
+  font-weight: 500;
+}
+
+.content {
+  width: 1170px;
+  margin: auto;
+  padding: 60px 0px 40px 0px;
+}
+
+.table {
+  font-size: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0 15px;
+  display: inline-block;
+  width: 33.333333333333336%;
+  /*background-color: blue;*/
+}
+
+.collum {
+  font-size: 16px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.img-card {
+  width: 100%;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.p {
+  padding: 15px 0;
+}
+
+.b-like {
+  z-index: 1;
+  margin: 10px;
+  position: absolute;
+}
+
+.button-card {
+  border-radius: 3px;
+  background-color: #3F51B5;
+  width: 100%;
+  height: 35px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.button-card:hover {
+  background-color: #8a99e8;
+}
+
+.button-card:focus {
+  background-color: #19235a;
+}
+
+.page {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.page_namber {
+  text-decoration: underline;
+}
+
+
+footer {
+  background-color: #3F51B5;
+  color: #fff;
+  text-align: center;
+}
