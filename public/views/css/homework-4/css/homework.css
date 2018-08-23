@@ -1,0 +1,190 @@
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  height: 100%;
+  color: #444;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+/* Unknown props */
+/* box-shadow: 0 2px 5px rgba(0,0,0,.26); - header */
+/* border-radius: 3px; - card rounding */
+/* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); - card shadow */
+/* border-top-left-radius: 3px; +++++++++++++++++++++++
+  border-top-right-radius: 3px; - for card image */ 
+
+/* Your styles go below */
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: green;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,.26);
+  width: 100%;
+}
+.link-nav a {
+  margin-right: 16px;
+  display: inline-block;
+  padding-bottom: 15px;
+  margin-bottom: -20px;
+}
+
+.log_right {
+  float: right;
+}
+
+.link-info {
+  text-transform: uppercase;
+  border: 2px solid rgba(0,0,0,0);
+}
+
+.link-info:active {
+  border-bottom-color: yellow;
+}
+
+.link-active {
+  border-bottom-color: yellow;
+}
+
+body {
+  background-image: url(../img/pattern.png);
+}
+
+.content {
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.intro {
+  background-image: url(../img/intro.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 400px;
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  font-weight: 700;
+  padding-top: 10%;
+  margin-bottom: 15px;
+}
+
+.h-title {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 3;
+}
+
+.row {
+  margin: -15px;
+}
+
+.colum {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+.card {
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background-color: white;
+}
+
+.height-card {
+  background-image: url(../img/everest.jpg);
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.name-imgcard {
+  margin-top: 175px;
+  margin-left: 10px;
+  position: absolute;
+  color: white;
+}
+
+.card-title {
+  opacity: 0.7;
+}
+
+.card-description {
+  padding: 10px 0;
+}
+
+.b-card {
+ padding: 15px 0 10px;
+}
+
+.buttons-card {
+  text-transform: uppercase;
+  color: green;
+  margin-left: 10px;
+  opacity: 0.7;
+}
+
+.bottom-card {
+  margin: 15px;
+  padding-bottom: 15px;
+}
+
+.b-load {
+  text-align: center;
+}
+
+.button-load {
+  text-transform: uppercase;
+  color: white;
+  background-color: green;
+  height: 50px;
+  width: 140px;
+  border-radius: 3px;
+  padding-top: 5px;
+}
+
+.footer {
+  background-color: #000000e0;
+  padding: 15px;
+  color: white;
+}
+
+.nav-item {
+  line-height: 3;
+  padding-top: 20px;
+}
