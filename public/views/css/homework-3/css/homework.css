@@ -48,26 +48,28 @@ header {
   background-color: #3F51B5;
   color: #fff;
   box-shadow: 0 2px 5px rgba(0,0,0,0.26);
-  margin-bottom: 20px;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 header a {
   font-weight: 600;
-}
-
-a {
   margin-left: 20px;
 }
 
-.url_gallery {
+
+.url-gallery {
+  text-decoration: underline;
+}
+
+.link-nav:active {
   text-decoration: underline;
 }
 
 h1 {
   font-size: 32px;
-  line-height: 2;
+  line-height: 3;
   margin-left: 15px;
   font-weight: 600;
 }
@@ -81,22 +83,21 @@ h2 {
 .content {
   width: 1170px;
   margin: auto;
-  padding: 60px 0px 40px 0px;
+  padding: 60px 0px 50px 0px;
 }
 
 .table {
   font-size: 0;
 }
 
-.row {
+.collum {
   margin: 0;
   padding: 0 15px;
   display: inline-block;
   width: 33.333333333333336%;
-  /*background-color: blue;*/
 }
 
-.collum {
+.card {
   font-size: 16px;
   margin-bottom: 25px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
@@ -110,44 +111,53 @@ h2 {
   padding: 15px;
 }
 
-.p {
+.card-desc {
   padding: 15px 0;
 }
 
-.b-like {
+.button-like {
   z-index: 1;
   margin: 10px;
   position: absolute;
 }
 
 .button-card {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.link-card {
   border-radius: 3px;
   background-color: #3F51B5;
+  padding: 10px 121px;
   width: 100%;
-  height: 35px;
   color: white;
   text-transform: uppercase;
 }
 
-.button-card:hover {
+.link-card:hover {
   background-color: #8a99e8;
 }
 
-.button-card:focus {
+.link-card:focus {
   background-color: #19235a;
 }
 
-.page {
+.page-links {
   text-align: center;
   padding-top: 10px;
 }
 
-.page_namber {
+.page-number {
   text-decoration: underline;
+  margin-left: 20px;
 }
 
+.page-number:active {
+  text-decoration: none;
+}
 
-footer {
+.footer {
   background-color: #3F51B5;
   color: #fff;
   text-align: center;
