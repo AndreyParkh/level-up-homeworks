@@ -116,10 +116,15 @@ h2 {
   padding: 15px 0;
 }
 
+.container-img {
+  position: relative;
+}
+
 .button-like {
   z-index: 1;
-  margin: 10px;
   position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 .button-card {
