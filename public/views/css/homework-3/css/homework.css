@@ -39,7 +39,6 @@ footer {
   box-sizing: border-box;
 }
 
-
 header, footer {
   padding: 20px
 }
@@ -53,13 +52,16 @@ header {
   z-index: 2;
 }
 
-header a {
+.link-nav {
   font-weight: 600;
   margin-left: 20px;
 }
 
+.link-nav:first-child {
+  margin-left: 0px;
+}
 
-.url-gallery {
+.link-active {
   text-decoration: underline;
 }
 
@@ -90,8 +92,7 @@ h2 {
   font-size: 0;
 }
 
-.collum {
-  margin: 0;
+.column {
   padding: 0 15px;
   display: inline-block;
   width: 33.333333333333336%;
@@ -129,10 +130,11 @@ h2 {
 .link-card {
   border-radius: 3px;
   background-color: #3F51B5;
-  padding: 10px 121px;
   width: 100%;
   color: white;
   text-transform: uppercase;
+  display: inline-block;
+  line-height: 2;
 }
 
 .link-card:hover {
