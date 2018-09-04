@@ -41,25 +41,42 @@ footer {
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(../img/pattern.png);
+}
+
 .header {
   background-color: green;
   color: white;
   box-shadow: 0 2px 5px rgba(0,0,0,.26);
   width: 100%;
 }
-.link-nav a {
+
+.nav a {
   margin-right: 16px;
   display: inline-block;
   line-height: 3;
 }
 
-.log_right {
-  float: right;
+.link-nav {
+  display: inline-block;
+}
+
+.link-nav a:last-child {
+  margin-right: 0;
 }
 
 .link-info {
   text-transform: uppercase;
-  border: 2px solid rgba(0,0,0,0);
+  border-bottom: 2px solid rgba(0,0,0,0);
+}
+
+.register {
+  float: right;
+}
+
+.link-register {
+  border-bottom: 2px solid rgba(0,0,0,0);
 }
 
 .link-info:active {
@@ -70,9 +87,7 @@ footer {
   border-bottom-color: yellow;
 }
 
-body {
-  background-image: url(../img/pattern.png);
-}
+/*---------header END---------*/
 
 .content {
   margin-bottom: 50px;
@@ -81,6 +96,8 @@ body {
 .container {
   width: 1170px;
   margin: 0 auto;
+  padding: 0px 15px;
+  /*overflow: hidden;*/
 }
 
 .intro {
@@ -106,22 +123,24 @@ body {
 }
 
 .row {
-  margin: -15px;
+  margin: 0px -15px;
+  overflow: hidden;
 }
 
-.colum {
+.column {
   float: left;
   width: 25%;
-  padding: 15px;
+  padding: 0 15px;;
 }
 
 .card {
   border-radius: 3px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   background-color: white;
+  margin-bottom: 30px;
 }
 
-.height-card {
+.card-imgbox {
   background-image: url(../img/everest.jpg);
   height: 200px;
   background-position: center;
@@ -132,8 +151,8 @@ body {
 }
 
 .name-imgcard {
-  margin-top: 175px;
-  margin-left: 10px;
+  bottom: 10px;
+  left: 10px;
   position: absolute;
   color: white;
 }
@@ -153,13 +172,15 @@ body {
 .buttons-card {
   text-transform: uppercase;
   color: green;
-  margin-left: 10px;
   opacity: 0.7;
+  line-height: 2;
+  display: inline-block;
+  padding: 5px;
+  /*background: fuchsia;*/
 }
 
 .bottom-card {
-  margin: 15px;
-  padding-bottom: 15px;
+  padding: 15px;
 }
 
 .b-load {
@@ -170,19 +191,24 @@ body {
   text-transform: uppercase;
   color: white;
   background-color: green;
-  height: 50px;
-  width: 140px;
+  display: inline-block;
+  line-height: 3;
+  padding: 0 20px;
   border-radius: 3px;
-  padding-top: 5px;
 }
+
+    /*-----------content END--------*/
 
 .footer {
   background-color: #000000e0;
-  padding: 15px;
+  padding: 15px 0px;
   color: white;
 }
+/*.clear:after {
+content: "";
+  clear: both;
+}*/
 
-.nav-item {
+.footer-item {
   line-height: 3;
-  padding-top: 20px;
 }
