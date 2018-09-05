@@ -124,7 +124,7 @@ body {
 
 .row {
   margin: 0px -15px;
-  overflow: hidden;
+ /* overflow: hidden;*/
 }
 
 .column {
@@ -204,10 +204,12 @@ body {
   padding: 15px 0px;
   color: white;
 }
-/*.clear:after {
+
+.clearfix:after {
 content: "";
+display: block;
   clear: both;
-}*/
+}
 
 .footer-item {
   line-height: 3;
