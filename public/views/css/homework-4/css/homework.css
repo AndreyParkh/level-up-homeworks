@@ -100,6 +100,10 @@ body {
   /*overflow: hidden;*/
 }
 
+h1 {
+  margin: 0;
+}
+
 .intro {
   background-image: url(../img/intro.jpg);
   background-position: center;
@@ -150,14 +154,14 @@ body {
   border-top-left-radius: 3px;
 }
 
-.name-imgcard {
+.card-title {
   bottom: 10px;
   left: 10px;
   position: absolute;
   color: white;
 }
 
-.card-title {
+.card-sub-title {
   opacity: 0.7;
 }
 
@@ -166,17 +170,21 @@ body {
 }
 
 .b-card {
- padding: 15px 0 10px;
+  display: inherit
+}
+
+.button-box {
+  display: inline-block;
+  margin: 0 5px;
+  /*background: fuchsia;*/
 }
 
 .buttons-card {
   text-transform: uppercase;
   color: green;
-  opacity: 0.7;
-  line-height: 2;
-  display: inline-block;
-  padding: 5px;
-  /*background: fuchsia;*/
+  line-height: 30px;
+  padding: 0 5px;
+  height: 30px;
 }
 
 .bottom-card {
@@ -200,7 +208,7 @@ body {
     /*-----------content END--------*/
 
 .footer {
-  background-color: #000000e0;
+  background-color: rgba(0, 0, 0, 0.82);
   padding: 15px 0px;
   color: white;
 }
