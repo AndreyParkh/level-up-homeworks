@@ -55,7 +55,7 @@ body {
 .nav a {
   margin-right: 16px;
   display: inline-block;
-  line-height: 3;
+  line-height: 4;
 }
 
 .link-nav {
@@ -100,10 +100,6 @@ body {
   /*overflow: hidden;*/
 }
 
-h1 {
-  margin: 0;
-}
-
 .intro {
   background-image: url(../img/intro.jpg);
   background-position: center;
@@ -121,9 +117,9 @@ h1 {
 
 .h-title {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 30px;
   text-transform: uppercase;
-  line-height: 3;
+  line-height: 2;
 }
 
 .row {
@@ -170,17 +166,22 @@ h1 {
 }
 
 .b-card {
-  display: inherit
+  font-size: 0;
 }
 
 .button-box {
   display: inline-block;
-  margin: 0 5px;
+  margin-right: 5px;
   /*background: fuchsia;*/
+}
+
+.button-box:last-child {
+  margin-right: 0;
 }
 
 .buttons-card {
   text-transform: uppercase;
+  font-size: 1rem;
   color: green;
   line-height: 30px;
   padding: 0 5px;
@@ -214,11 +215,12 @@ h1 {
 }
 
 .clearfix:after {
-content: "";
-display: block;
+  content: "";
+  display: block;
   clear: both;
 }
 
 .footer-item {
   line-height: 3;
 }
+  
