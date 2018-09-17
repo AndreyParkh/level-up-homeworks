@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+.collection {
+  width: 90%;
+  margin: 60px auto;
+  border: 1px solid gray;
+  border-bottom: 0;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.collection-item {
+  display: table;
+  border-bottom: 1px solid gray;
+  width: 100%;
+}
+
+.collection-item__cell {
+  display: table-cell;
+  vertical-align: top;
+  padding: 12px;
+}
+
+.collection-item__cell--align_middle {
+  vertical-align: middle;
+}
+
+.collection-item__cell--full-width {
+  width: 100%;
+}
+
+.collection-item__icon {
+  height: 32px;
+  width: 32px;
+  background-image: url(../images/SVG-icons.png);
+}
+
+.collection-item__icon--smile {
+  background-position-x: -115px;
+  background-position-y: -43px;
+}
+
+.collection-item__icon--pan {
+  background-position-x: -115px;
+  background-position-y: -80px;
+}
+
+.collection-item__icon--cat {
+  background-position-x: -3px;
+  background-position-y: -155px;
+}
+
+.collection-item__text {
+
+}
+
+.badge {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 3px;
+  height: 30px;
+  padding: 0 12px;
+  color: #fff;
+  line-height: 30px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.badge--status_success {
+  background-color: green;
+}
+
+.badge--status_pending {
+  background-color: orange;
+}
+
+.badge--status_error {
+  background-color: red;
+}
+
+/* Colection (END)  */
+
+
+.circle {
+  margin: 60px auto;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background: radial-gradient(closest-corner, 
+    rgba(216, 15, 141, 0.2), 
+    rgba(147, 112, 219, 0.34), 
+    rgba(255, 69, 0, 0.12) 100% );
+  background-size: 11px 11px;
+
+  box-shadow: 20px 30px 2px 10px rgba(120,44,66,0.5) inset,
+  25px -30px 2px 10px rgba(200,255,0,0.5) inset,
+  -20px 20px 2px 20px rgba(275,50,204,0.5) inset,
+  10px -5px 2px 20px rgba(255,111,229,0.5) inset,
+  -20px -20px 2px 20px rgba(70,130,180,0.5) inset;
+}
