@@ -35,8 +35,6 @@ footer, .footer {
 /* Your styles go below */
 
 
-
-
 .container {
   margin: 0 auto;
   width: 100%;
@@ -340,7 +338,7 @@ input:checked + .checkbox:after {
   border-top-left-radius: 3px;
 }
 
-.img-title {
+.card-title {
   bottom: 10px;
   left: 10px;
   position: absolute;
